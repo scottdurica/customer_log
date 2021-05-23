@@ -8,11 +8,11 @@ from ttkthemes import ThemedTk
 
 # window = ThemedTk(theme="arc")
 
-bg_color = '#32a4a8'
-text_color = '#fff'
-text_big = 42
-text_med = 28
-text_small = 18
+# bg_color = '#32a4a8'
+# text_color = '#fff'
+# text_big = 42
+# text_med = 28
+# text_small = 18
 
 # > import ttk
 # >>> s=ttk.Style()
@@ -294,7 +294,8 @@ class InvTab():
         for item in invoice_list:
             self.list_box.insert(END, item[0])
 
-    # this gets called as user selects a value from the combobox ### and then che
+    # this gets called as user selects a value from the combobox ###
+
     def select_combobox_item(self, event):
         name = (self.name_field.get())
         # use name value to popluate the listview with the correct data from DB
